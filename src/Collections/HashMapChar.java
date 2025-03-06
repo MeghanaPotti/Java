@@ -7,8 +7,9 @@ public class HashMapChar {
 	public static void main(String[] args) {
 		
 		String word = "qwerasqecaeftgrqewt";
-		HashMap<Character, Integer> example = new HashMap<>();
 		char[] arr = word.toCharArray();
+		HashMap<Character, Integer> example = new HashMap<>();
+		
 		for(char ch:arr) {
 			if(example.containsKey(ch)) {
 				int count = example.get(ch);
