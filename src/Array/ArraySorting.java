@@ -4,7 +4,7 @@ public class ArraySorting {
 
 	public static void main(String[] args) {
 		
-		int[] numbers = {23,11,35,2,14,7};
+		int[] numbers = {23,11,35,2,-1,14,7,-2};
 		
 		for(int i=0;i<numbers.length-1;i++) {
 			int min = i;

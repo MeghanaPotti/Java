@@ -6,14 +6,20 @@ public class EvenOddElements {
 		
 		int[] a = {1,2,3,4,5};
 		
+		  String evenNumbers = "Even numbers are ";
+	      String oddNumbers = "Odd numbers are ";
+
+		
 		for(int i=0;i<a.length;i++) {
 			if(a[i]%2==0) {
-				System.out.println(a[i]+" is even number");
+				evenNumbers = evenNumbers+a[i]+" ";
 			}
 			else {
-				System.out.println(a[i]+" is odd number"); //separate print statements?
+				oddNumbers = oddNumbers+a[i]+" ";
 			}
 		}
 		
+		System.out.println(evenNumbers);
+		System.out.println(oddNumbers);
 	}
 }
