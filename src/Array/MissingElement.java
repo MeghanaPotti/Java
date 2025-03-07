@@ -34,4 +34,4 @@ public class MissingElement {
 
 
 //array methods - sort, compare/equals
-//array programs - zero to left&right, two sum problem, missing elements, remove first and last elements,
+//array programs - zero to left&right
