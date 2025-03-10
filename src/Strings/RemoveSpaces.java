@@ -12,7 +12,7 @@ public class RemoveSpaces {
 		String name ="@@dfgh@";
 		String n1 = name.replace("@", "");
 		System.out.println("Removing special characters");
-		System.out.println(n1); //2 or more diff sp characters?
+		System.out.println(n1); 
 
 	}
 
