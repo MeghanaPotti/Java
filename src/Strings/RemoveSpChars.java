@@ -1,6 +1,6 @@
 package Strings;
 
-public class RemoveSpChar {
+public class RemoveSpChars {
 
 	public static void main(String[] args) {
 		

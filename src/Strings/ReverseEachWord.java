@@ -22,7 +22,6 @@ public class ReverseEachWord {
 
 }
 
-// reverse each word in the sentence
+
 // reverse only words in the sentence(last word should be first)
 // reverse each word and and sentence in the given sentence
-// reverse of a string 
