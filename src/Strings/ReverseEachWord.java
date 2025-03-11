@@ -23,5 +23,3 @@ public class ReverseEachWord {
 }
 
 
-// reverse only words in the sentence(last word should be first)
-// reverse each word and and sentence in the given sentence

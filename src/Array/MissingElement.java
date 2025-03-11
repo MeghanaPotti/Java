@@ -34,4 +34,3 @@ public class MissingElement {
 
 
 //array methods - sort, compare/equals
-//array programs - zero to left&right
