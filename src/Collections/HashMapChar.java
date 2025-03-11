@@ -21,7 +21,7 @@ public class HashMapChar {
 		}
 		for(char ch:example.keySet()) {
 			int count = example.get(ch);
-			System.out.println(ch+"-"+count+"times");
+			System.out.print(ch+""+count);
 		}
 	}
 
