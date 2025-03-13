@@ -6,7 +6,7 @@ public class FindFirstNonRepeatedChar {
 
 	public static void main(String[] args) {
 		
-		String name = "aafcbbdccs";
+		String name = "eaafcbbdccs";
 		char[] arr = name.toCharArray();
 		
 		HashMap<Character, Integer> example = new HashMap<>();
@@ -20,7 +20,7 @@ public class FindFirstNonRepeatedChar {
 			}
 		}
 		
-		for(char ch: arr) {   //example.keySet()?
+		for(char ch: arr) {   
 			int count = example.get(ch);
 			if(count==1) {
 				System.out.println("First non repeated charcater is "+ch);

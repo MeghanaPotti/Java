@@ -25,7 +25,7 @@ public class RemoveAllDuplicateWords {
 				sentence = sentence.replace(String.valueOf(str), "");
 			}
 		}
-		System.out.println(sentence);  //space?
+		System.out.println(sentence.trim()); 
 	}
 
 }
