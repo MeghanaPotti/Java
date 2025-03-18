@@ -1,9 +1,6 @@
 package Collections;
 
 import java.util.HashSet;
-import java.util.Set;
-
-import javax.lang.model.element.Element;
 
 public class DuplicateChar {
 
