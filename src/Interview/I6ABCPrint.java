@@ -10,7 +10,7 @@ public class I6ABCPrint {
 		
 		while(input.contains(target)) {
 			count++;
-			input = input.substring(input.indexOf(target)+1);
+			input = input.substring(input.indexOf(target)+1); //?
 		}
 		
 		System.out.println(target+" "+count);
