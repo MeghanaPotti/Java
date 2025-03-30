@@ -1,6 +1,6 @@
 package LinkedIn;
 
-public class StarPattern {
+public class StarAndNumsPattern {
 
 	public static void main(String[] args) {
 		

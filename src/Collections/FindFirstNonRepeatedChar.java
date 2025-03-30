@@ -12,7 +12,7 @@ public class FindFirstNonRepeatedChar {
 		HashMap<Character, Integer> example = new HashMap<>();
 		for(char ch: arr) {
 			if(example.containsKey(ch)) {
-				int count = example.get(ch);  // why not int count=0 in 11th line?
+				int count = example.get(ch);  
 				example.put(ch, count+1);
 			}
 			else {

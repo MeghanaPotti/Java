@@ -23,6 +23,8 @@ public class ArraySorting {
 		}
 
 		System.out.println();
+		System.out.println("Smallest number is "+numbers[0]);
+		System.out.println("2nd Smallest number is "+numbers[1]);
 		System.out.println("Largest number is "+numbers[numbers.length-1]);
 		System.out.println("2nd Largest number is "+numbers[numbers.length-2]);
 		System.out.println("Middle number is "+numbers[numbers.length/2]);
