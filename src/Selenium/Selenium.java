@@ -1,4 +1,4 @@
-import java.time.Duration;
+package Selenium;
 
 public class Selenium {
 
@@ -49,6 +49,9 @@ public class Selenium {
 //		driver.switchTo().newWindow(WindowType.TAB);
 //		driver.switchTo().newWindow(WindowType.WINDOW);
 //		driver.manage().window().setPosition(new Point(0, 0)); - set window position
+//		driver.navigate().refresh();
+//		driver.navigate().forward();
+//		driver.navigate().back();
 		
 		//frames
 //		driver.switchTo().frame("buttonframe"); - by id or name
@@ -74,6 +77,8 @@ public class Selenium {
 		//file upload
 //		driver.findElement(By.id("file-upload")).sendKeys(“path/to/your/file.txt”);
 //		driver.findElement(By.id("file-submit")).submit();
+		
+		
 
 	}
 
