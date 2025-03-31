@@ -19,10 +19,12 @@ public class MergingArrays {
 		for(int i=0;i<b.length;i++) {
 			mergedArray[a.length+i]=b[i];
 		}
-		Arrays.sort(mergedArray);  //print statements before and after sorting?
-		for(int num:mergedArray) {
-			System.out.print(num+" ");
-			
-		}
+
+		System.out.println("before sorting "+Arrays.toString(mergedArray));
+		
+		Arrays.sort(mergedArray); 
+		System.out.println("After sorting "+Arrays.toString(mergedArray));
+		
 	}
 }
+

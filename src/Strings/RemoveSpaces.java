@@ -5,7 +5,7 @@ public class RemoveSpaces {
 	public static void main(String[] args) {
 		
 		String sentence = "qwr asf qwr";
-		String s1 = sentence.replace(" ", "");
+		String s1 = sentence.replaceAll("\\s", "");
 		System.out.println("Removing spaces");
 		System.out.println(s1);
 		
