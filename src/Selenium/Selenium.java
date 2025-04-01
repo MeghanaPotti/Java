@@ -19,10 +19,14 @@ public class Selenium {
 		
 		// TestNG
 //		BeforeSuite - Executes before entire suite - setting up system properties
-//		BeforeTest - Executes before all test methods 
-//		BeforeClass - Executes before first method of current class
-//		BeforeMethod - Executes before each method
-//		Test - Test case logic 
+//		BeforeTest - Executes before all test methods - Launching browser
+//		BeforeClass - Executes before first method of current class - Navigating to website
+//		BeforeMethod - Executes before each method - LOgin
+//		Test - Test case logic - order (selection and checkout)
+//		AfterMethod - Executes after each method - Logout
+//		AfterClass - Executes after first method of current class - closing session
+//		AfterTest - Executes after all test methods - closing browser
+//		AfterSuite - Executes after entire suite - generate report
 		
 		//waits
 //		implicit wait - - wait time for webdriver before throwing an exception if element is not found on webpage
