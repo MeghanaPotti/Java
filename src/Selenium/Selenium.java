@@ -66,6 +66,9 @@ public class Selenium {
 //		alert.sendKeys("text");
 //		String text = alert.getText();
 		
+		//Assets
+//		SoftAsset.assetEquals(5,5); - SoftAsset 
+//		Asset.assetEquals(5,5) - HardAsset
 		
 		//Screenshot
 //		File srcFile = ((TakeScreenshot)driver).getScreenshotAs(OutputType.FILE);
