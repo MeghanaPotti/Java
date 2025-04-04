@@ -4,6 +4,11 @@ public class api {
 
 	public static void main(String[] args) {
 		
+//  Status codes		
+//	   Success errors-200(ok),201(created),202(Accepted),204(No content)		
+//	   Client errors-400(Bad rqst), 401(Unauthorized),403(Forbidden),404(Not Found),408(Rqst timeout)
+//	   Server errors-500(Internal Server Error), 502(Bad Gateway), 503(Service unavailable), 504(Gateway Timeout)
+		
 //	Basic validation
 //		given()
 //		.when()
