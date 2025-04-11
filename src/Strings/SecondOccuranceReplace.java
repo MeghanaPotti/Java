@@ -20,7 +20,7 @@ public class SecondOccuranceReplace {
 			}
 			output = output+input.charAt(i);
 		}
-			System.out.println(output);
+	  System.out.println(output);
 	}
 
 }
