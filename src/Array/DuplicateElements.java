@@ -3,7 +3,7 @@ package Array;
 public class DuplicateElements {
 	
 	public static void main(String[] args) {
-		
+		System.out.print("Duplicate elements are ");
 		int a[] = {1,2,1,3,4,3,2};
 		boolean[] rep = new boolean[a.length];
 		
@@ -18,7 +18,10 @@ public class DuplicateElements {
 					rep[j]=true;
 				}
 			}
-			System.out.println(a[i]+"-"+count+"times");
+//			System.out.println(a[i]+"-"+count+"times");		
+			if(count>1) {
+				System.out.print(a[i]+" ");
+			}
 		}		
 	}
 
