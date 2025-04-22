@@ -17,7 +17,7 @@ public class ReverseEachWord {
 			}
 			reversedSentence = reversedSentence+reversedString+" ";
 		}
-		System.out.println("After reversing each word in each sentence- "+reversedSentence);
+		System.out.println(reversedSentence);
 	}
 
 }
