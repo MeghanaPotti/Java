@@ -4,7 +4,7 @@ public class StrCompression {
 
 	public static void main(String[] args) {
 	
-		String input = "aabbbccccaa";
+		String input = "aabbbccccaab";
 		int count = 1;
 		
 		for(int i=1; i<input.length(); i++) {

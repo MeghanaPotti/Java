@@ -1,6 +1,6 @@
 package Interview;
 
-public class I3LeftHandPramid {
+public class I3CharLeftHandPramid {
 
 	public static void main(String[] args) {
 		 String input = "SERVICENOW";
@@ -9,7 +9,7 @@ public class I3LeftHandPramid {
 
 	        for (int i = 0; i < lengths.length; i++) {
 	            int length = i+1; 
-	            if (start + length <= input.length()) {
+	            if (start+length <= input.length()) {
 	                System.out.println(input.substring(start, start + length));
 	                start = start+length; 
 	            }

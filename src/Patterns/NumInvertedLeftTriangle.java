@@ -1,6 +1,6 @@
 package Patterns;
 
-public class NumInvertedRightTriangle {
+public class NumInvertedLeftTriangle {
 
 	public static void main(String[] args) {
 		

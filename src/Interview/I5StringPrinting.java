@@ -8,8 +8,8 @@ public class I5StringPrinting {
 			String a ="xyz"+i;
 			System.out.print(a+" ");
 			a="abc"+i;
-			System.out.print(a);
-			System.out.println();
+			System.out.print(a+" ");
+//			System.out.println();
 		}
 
 	}

@@ -13,7 +13,7 @@ public class I6ABCPrint {
 			input = input.substring(input.indexOf(target)+1); //?
 		}
 		
-		System.out.println(target+" "+count);
+		System.out.println(target+"-"+count);
 	}
 
 }

@@ -1,6 +1,6 @@
 package Patterns;
 
-public class NumsRightTraingle {
+public class NumsLeftTraingle {
 
 	public static void main(String[] args) {
 		

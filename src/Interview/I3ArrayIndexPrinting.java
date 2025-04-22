@@ -5,7 +5,7 @@ public class I3ArrayIndexPrinting {
 	public static void main(String[] args) {
 		
 		int[] arr = {1,2,3,4,5,6};
-		int target = 7;
+		int target = 6;
 		int index = -1;
 		
 		for(int i=0;i<arr.length;i++) {
@@ -15,7 +15,7 @@ public class I3ArrayIndexPrinting {
 			}
 		}
 		
-		if(index != -1) {
+		if(index!= -1) {
 			System.out.println(target+" is at "+index);
 		}
 		else {
