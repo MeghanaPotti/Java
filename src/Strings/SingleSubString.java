@@ -15,9 +15,9 @@ public class SingleSubString {
 		String names = "QWERTY";
 		char[] chars = names.toCharArray();
 		System.out.println("Printing left hand pyramid");
-		for(int i=1;i<=chars.length;i++) {
-			for(int k=0;k<=i;k++) {
-				System.out.print(chars[k]);
+		for(int i=0;i<=chars.length-1;i++) {
+			for(int j=0;j<=i;j++) {
+				System.out.print(chars[j]);
 			}
 			System.out.println();
 		}
