@@ -85,6 +85,13 @@ public class Selenium {
 //		driver.findElement(By.id("file-upload")).sendKeys(“path/to/your/file.txt”);
 //		driver.findElement(By.id("file-submit")).submit();
 		
+		//Drag and drop
+//		Actions actions = new Actions(driver);
+//		WebElement source = driver.findElement(sourceLocator);
+//		WebElement destination = driver.findElement(destinationLocator);
+//		actions.dragAndDrop(source, destination).perform();
+		
+		
 		
 
 	}
