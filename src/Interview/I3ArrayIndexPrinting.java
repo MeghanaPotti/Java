@@ -4,19 +4,19 @@ public class I3ArrayIndexPrinting {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {1,2,3,4,5,6};
-		int target = 6;
-		int index = -1;
-		
+		int[] arr = {1,2,3,4,5,6,2};
+		int target = 2;
+		int count=0;
+		System.out.print("Index of "+target+" is ");
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]==target) {
-				index = i;
-				break;
+				System.out.print(i+" ");
+				count++;
 			}
 		}
-		
-		if(index!= -1) {
-			System.out.println(target+" is at "+index);
+		System.out.println();
+		if(count>1) {
+			System.out.println(target+" is repeated "+count+" times");
 		}
 		else {
 			System.out.println("Element not found in the array");

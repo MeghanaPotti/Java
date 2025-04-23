@@ -10,8 +10,8 @@ public class Selenium {
 //		Edge - WebDriver driver = new EdgeDriver();
 		
 		// Locating Elements
-//		By Id - driver.findElement(By.Id(<elementId>));
-//		By Name - driver.findElement(By.Name(<elementName>));
+//		By Id - driver.findElement(By.id(<elementId>));
+//		By Name - driver.findElement(By.name(<elementName>));
 //		By Class Name - driver.findElement(By.className(<elementClassName>));
 //		By Tag Name - driver.findElement(By.tagName(<elementTagName>));
 //		By CSS - driver.findElement(By.cssSelector(<tag value>));
