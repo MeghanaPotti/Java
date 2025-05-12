@@ -17,5 +17,4 @@ public class IndexesOfChar {
 		}
 		System.out.println(target+"-"+count);
 	}
-
 }

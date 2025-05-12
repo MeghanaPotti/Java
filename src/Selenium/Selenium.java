@@ -88,8 +88,8 @@ public class Selenium {
 		//Drag and drop
 //		Actions actions = new Actions(driver);
 //		WebElement source = driver.findElement(sourceLocator);
-//		WebElement destination = driver.findElement(destinationLocator);
-//		actions.dragAndDrop(source, destination).perform();
+//		WebElement target = driver.findElement(destinationLocator);
+//		actions.dragAndDrop(source, target).perform();
 		
 		
 		
