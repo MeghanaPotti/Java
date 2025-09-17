@@ -20,3 +20,25 @@ public class PerfectSquare {
 	}
 
 }
+
+//js
+
+//const perfectSquare = (number) => {
+//	  let flag = false;
+//
+//	  for (let i = 0; i <= Math.floor(number / 2); i++) {
+//	    if (i * i === number) {
+//	      flag = true;
+//	      console.log(`${i} is perfect square for ${number}`);
+//	      break;
+//	    }
+//	  }
+//
+//	  if (!flag) {
+//	    console.log(`${number} is not a perfect square`);
+//	  }
+//	};
+//
+//	const number = 141;
+//	perfectSquare(number);
+

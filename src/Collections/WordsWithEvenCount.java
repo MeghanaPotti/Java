@@ -32,3 +32,28 @@ public class WordsWithEvenCount {
 	}
 
 }
+
+
+//js
+
+//const wordsWithEvenCount = (sentence) => {
+//	  const arr = sentence.split(' ');
+//	  const wordCount = new Map();
+//
+//	  for (const word of arr) {
+//	    wordCount.set(word, (wordCount.get(word) || 0) + 1);
+//	  }
+//
+//	  let result = 'words with even count are ';
+//	  for (const [word, count] of wordCount) {
+//	    if (count % 2 === 0) {
+//	      result += word + ' ';
+//	    }
+//	  }
+//
+//	  return result;
+//	};
+//
+//	const sentence = "qwerty qwre qwerty qre qwerty qre qwre";
+//	console.log(wordsWithEvenCount(sentence));
+

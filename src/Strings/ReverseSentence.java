@@ -15,3 +15,20 @@ public class ReverseSentence {
 	}
 
 }
+
+
+//js
+
+//const reverseSentence = (sentence) => {
+//	  const words = sentence.split(' ');
+//	  let reversed = '';
+//
+//	  for (let i = words.length - 1; i >= 0; i--) {
+//	    reversed += words[i] + ' ';
+//	  }
+//
+//	  console.log("Reversed sentence is " + reversed.trim());
+//	};
+//
+//	const sentence = "qwer qwert qwerty";
+//	reverseSentence(sentence);

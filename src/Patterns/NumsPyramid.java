@@ -22,3 +22,29 @@ public class NumsPyramid {   //?
 	}
 
 }
+
+
+//js
+
+//const numsPyramid = (n) => {
+//	  for (let i = 1; i <= n; i++) {
+//	    let line = '';
+//
+//	    for (let space = n; space > i; space--) {
+//	      line += ' ';
+//	    }
+//
+//	    for (let j = 1; j <= i; j++) {
+//	      line += j;
+//	    }
+//
+//	    for (let j = i - 1; j >= 1; j--) {
+//	      line += j;
+//	    }
+//
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 5;
+//	numsPyramid(n);

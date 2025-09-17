@@ -21,3 +21,13 @@ public class RemoveDuplicatesWithoutSorting {
 	}
 
 }
+
+
+//js
+
+//function removeDuplicatesWithoutSorting(arr) {
+// const uniqueSet = new Set(arr);
+// const result = Array.from(uniqueSet);
+// console.log(result.join(" "));
+// return result;
+//}

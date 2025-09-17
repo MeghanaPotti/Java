@@ -19,3 +19,21 @@ public class RotatingArray {
 	}
 
 }
+
+
+//js
+
+
+//function rotateArray(arr, rotateCount) {
+// let rotatedArray = new Array(arr.length);
+// for (let i = 0; i < arr.length; i++) {
+//     rotatedArray[(i + rotateCount) % arr.length] = arr[i];
+// }
+// console.log("Rotated array:", rotatedArray);
+// return rotatedArray;
+//}
+//
+////Example:
+//let arr = [1, 2, 3, 4, 5];
+//let rotateCount = 3;
+//rotateArray(arr, rotateCount); // Output: [3, 4, 5, 1, 2]

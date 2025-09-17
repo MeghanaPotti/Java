@@ -24,3 +24,20 @@ public class ZerosToLeft {
 	}
 
 }
+
+
+//js
+
+//function zerosToLeft(arr) {
+//    let nonZeroIndex = arr.length - 1;
+//
+//    for (let i = arr.length - 1; i >= 0; i--) {
+//        if (arr[i] !== 0) {
+//            [arr[i], arr[nonZeroIndex]] = [arr[nonZeroIndex], arr[i]];
+//            nonZeroIndex--;
+//        }
+//    }
+//
+//    console.log("Printing zeros to left:", arr);
+//    return arr;
+//}

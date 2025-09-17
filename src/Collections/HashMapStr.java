@@ -26,3 +26,19 @@ public class HashMapStr {
 		
 	}
 }
+
+
+//js
+
+//function hashMapStr(sentence) {
+// const words = sentence.split(" ");
+// const wordCount = new Map();
+//
+// for (let word of words) {
+//     wordCount.set(word, (wordCount.get(word) || 0) + 1);
+// }
+//
+// for (let [word, count] of wordCount.entries()) {
+//     console.log(word + "=" + count + " times");
+// }
+//}

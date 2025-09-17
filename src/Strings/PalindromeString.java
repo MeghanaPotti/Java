@@ -20,3 +20,24 @@ public class PalindromeString {
 	}
 
 }
+
+
+//js
+
+//const palindromeString = (str) => {
+//	  let reverse = '';
+//	  for (let i = str.length - 1; i >= 0; i--) {
+//	    reverse += str[i];
+//	  }
+//
+//	  console.log(`Reverse of ${str} is ${reverse}`);
+//
+//	  if (reverse === str) {
+//	    console.log(`${str} is a palindrome string`);
+//	  } else {
+//	    console.log(`${str} is not a palindrome string`);
+//	  }
+//	};
+//
+//	const name = "QWEWQT";
+//	palindromeString(name);

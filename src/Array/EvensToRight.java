@@ -25,3 +25,28 @@ public class EvensToRight {
 		
 	}
 }
+
+
+//js
+
+//function evensToRight(arr) {
+// let oddIndex = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 !== 0) {
+//         [arr[i], arr[oddIndex]] = [arr[oddIndex], arr[i]];
+//         oddIndex++;
+//     }
+// }
+//
+// let evenPart = arr.slice(oddIndex).sort((a, b) => a - b);
+// for (let i = oddIndex; i < arr.length; i++) {
+//     arr[i] = evenPart[i - oddIndex];
+// }
+//
+// return arr;
+//}
+//
+////Example:
+//let arr = [11, 13, 14, 15, 16, 18, 17];
+//console.log(evensToRight(arr)); // Output: [11, 13, 15, 17, 14, 16, 18]

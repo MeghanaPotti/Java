@@ -14,3 +14,22 @@ public class ExtractLast4 {
 	}
 
 }
+
+
+//js
+
+
+//const extractLast4 = (str) => {
+//	  const lowerStr = str.toLowerCase();
+//	  const start = lowerStr.length - 4;
+//
+//	  let result = '';
+//	  for (let i = start; i < lowerStr.length; i++) {
+//	    result += lowerStr[i];
+//	  }
+//
+//	  console.log(result);
+//	};
+//
+//	const name = "Meghana";
+//	extractLast4(name);

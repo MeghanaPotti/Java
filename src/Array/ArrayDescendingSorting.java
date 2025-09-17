@@ -37,3 +37,39 @@ public class ArrayDescendingSorting {
 		}
 	}
 }
+
+
+//js
+
+//function arrayDescendingSorting() {
+//let a = [12, 14, 245, 46, 4, 768];
+//
+//// Ascending order (using built-in sort)
+//a.sort((x, y) => x - y); // Comparator for numeric ascending
+//console.log("Array after ascending sorting:", a);
+//
+//// Descending order (manual reverse after ascending)
+//for (let i = 0; i < Math.floor(a.length / 2); i++) {
+// let temp = a[i];
+// a[i] = a[a.length - 1 - i];
+// a[a.length - 1 - i] = temp;
+//}
+//console.log("Array after descending sorting:", a);
+//
+//// OR — implement selection sort for descending
+//for (let i = 0; i < a.length - 1; i++) {
+// let max = i;
+// for (let j = i + 1; j < a.length; j++) {
+//   if (a[j] > a[max]) {
+//     max = j;
+//   }
+// }
+// let temp = a[max];
+// a[max] = a[i];
+// a[i] = temp;
+//}
+//
+//console.log("Array after selection sort (descending):", a.join(" "));
+//}
+//
+//arrayDescendingSorting();

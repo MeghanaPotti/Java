@@ -16,3 +16,19 @@ public class ArrayCopying {
 		}
 	}
 }
+
+//js
+
+//function arrayCopying() {
+//const a = [1, 2, 3, 4, 5, 6];
+//const b = new Array(a.length);
+//
+//for (let i = 0; i < a.length; i++) {
+// b[i] = a[i];
+//}
+//
+//console.log("Printing duplicate array:");
+//console.log(b.join(" "));
+//}
+//
+//arrayCopying();

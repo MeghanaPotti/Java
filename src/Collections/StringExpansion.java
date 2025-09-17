@@ -21,3 +21,21 @@ public class StringExpansion {
 
 }
 
+//js
+
+//const stringExpansion = (input) => {
+//	  let output = '';
+//
+//	  for (let i = 0; i < input.length; i++) {
+//	    const char = input[i];
+//	    if (/[a-zA-Z]/.test(char)) {
+//	      const count = Number(input[i + 1]);
+//	      output += char.repeat(count);
+//	    }
+//	  }
+//
+//	  return output;
+//	};
+//
+//	const input = "a3b1c3a2";
+//	console.log(`${input} expansion is ${stringExpansion(input)}`);

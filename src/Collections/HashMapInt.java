@@ -26,3 +26,18 @@ public class HashMapInt {
 	}
 
 }
+
+//js
+
+//function hashMapInt(arr) {
+// const countMap = new Map();
+//
+// for (let num of arr) {
+//     countMap.set(num, (countMap.get(num) || 0) + 1);
+// }
+//
+// for (let [num, count] of countMap.entries()) {
+//     console.log(num + "-" + count + " times");
+// }
+//}
+

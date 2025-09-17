@@ -44,3 +44,22 @@ public class HashSett {
 	
 		}
 }
+
+//js
+
+//function hashSetExample(str) {
+// const charSet = new Set();
+// console.log("Printing duplicate characters:");
+// for (let ch of str) {
+//     if (charSet.has(ch)) {
+//         process.stdout.write(ch + " ");
+//     } else {
+//         charSet.add(ch);
+//     }
+// }
+// console.log("\nPrinting unique characters:");
+// for (let ch of charSet) {
+//     process.stdout.write(ch + " ");
+// }
+//}
+

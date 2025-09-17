@@ -28,3 +28,30 @@ public class VowConSpCharacters {
 	}
 
 }
+
+
+//js
+
+//const vowConSpCharacters = (str) => {
+//	  let vowelsCount = 0, consCount = 0, spCount = 0;
+//
+//	  for (let i = 0; i < str.length; i++) {
+//	    const ch = str[i];
+//	    if ('aeiou'.includes(ch)) {
+//	      vowelsCount++;
+//	      console.log("Vowels are " + ch);
+//	      console.log("Vowels count are " + vowelsCount);
+//	    } else if (ch >= 'a' && ch <= 'z') {
+//	      consCount++;
+//	      console.log("Consonants are " + ch);
+//	      console.log("Consonants count are " + consCount);
+//	    } else {
+//	      spCount++;
+//	      console.log("Special characters are " + ch);
+//	      console.log("Special characters count are " + spCount);
+//	    }
+//	  }
+//	};
+//
+//	const name = "qwert!@#aivec";
+//	vowConSpCharacters(name);

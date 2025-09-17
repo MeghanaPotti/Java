@@ -16,3 +16,18 @@ public class FirstAndLastIndex {
 	}
 
 }
+
+
+//js
+
+//const firstAndLastIndex = (str, target) => {
+//	  const firstIndex = str.indexOf(target);
+//	  const lastIndex = str.lastIndexOf(target);
+//
+//	  console.log(`First occurrence of ${target} is at ${firstIndex}`);
+//	  console.log(`Last occurrence of ${target} is at ${lastIndex}`);
+//	};
+//
+//	const a = "qertuywwqwrqqqqweqa";
+//	const target = 'q';
+//	firstAndLastIndex(a, target);

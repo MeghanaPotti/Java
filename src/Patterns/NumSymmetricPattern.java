@@ -22,3 +22,29 @@ public class NumSymmetricPattern {
 	}
 
 }
+
+
+//js
+
+//const numSymmetricPattern = (n) => {
+//	  for (let i = 1; i <= n; i++) {
+//	    let line = '';
+//
+//	    for (let space = 0; space < n - i; space++) {
+//	      line += '  ';
+//	    }
+//
+//	    for (let j = i; j >= 1; j--) {
+//	      line += j + ' ';
+//	    }
+//
+//	    for (let k = 2; k <= i; k++) {
+//	      line += k + ' ';
+//	    }
+//
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 5;
+//	numSymmetricPattern(n);

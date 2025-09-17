@@ -25,3 +25,30 @@ public class EvensToLeft {
 	}
 
 }
+
+
+//js
+
+//function evensToLeft(arr) {
+// let evenIndex = 0;
+//
+// // Move evens to the front
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 === 0) {
+//         [arr[i], arr[evenIndex]] = [arr[evenIndex], arr[i]];
+//         evenIndex++;
+//     }
+// }
+//
+// // Sort the odd part
+// let oddPart = arr.slice(evenIndex).sort((a, b) => a - b);
+// for (let i = evenIndex; i < arr.length; i++) {
+//     arr[i] = oddPart[i - evenIndex];
+// }
+//
+// return arr;
+//}
+//
+////Example:
+//let arr = [1, 2, 3, 4, 5, 6];
+//console.log(evensToLeft(arr)); // Output: [2, 4, 6, 1, 3, 5]

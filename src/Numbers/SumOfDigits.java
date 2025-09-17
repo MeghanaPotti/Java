@@ -16,3 +16,20 @@ public class SumOfDigits {
 	}
 
 }
+
+
+//js
+
+//const sumOfDigits = (number) => {
+//	  let sum = 0;
+//
+//	  while (number > 0) {
+//	    sum += number % 10;
+//	    number = Math.floor(number / 10);
+//	  }
+//
+//	  console.log("Sum is " + sum);
+//	};
+//
+//	const number = 123345345;
+//	sumOfDigits(number);

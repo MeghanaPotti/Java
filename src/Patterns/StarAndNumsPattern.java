@@ -21,3 +21,19 @@ public class StarAndNumsPattern {
 	}
 
 }
+
+
+//js
+
+//const starAndNumsPattern = (n) => {
+//	  for (let i = 0; i < n; i++) {
+//	    let line = '';
+//	    for (let j = 0; j < n; j++) {
+//	      line += (i === j ? '* ' : (j + 1) + ' ');
+//	    }
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 4;
+//	starAndNumsPattern(n);

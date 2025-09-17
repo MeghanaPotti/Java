@@ -31,3 +31,34 @@ public class ArraySorting {
 	}
 
 }
+
+//js
+
+//function arraySorting() {
+//let numbers = [23, 11, 35, 2, -1, 14, 7, -2];
+//
+//// Selection sort (ascending order)
+//for (let i = 0; i < numbers.length - 1; i++) {
+// let min = i;
+// for (let j = i + 1; j < numbers.length; j++) {
+//   if (numbers[j] < numbers[min]) {
+//     min = j;
+//   }
+// }
+// let temp = numbers[min];
+// numbers[min] = numbers[i];
+// numbers[i] = temp;
+//}
+//
+//// Printing sorted array
+//console.log("Sorted Array:", numbers.join(" "));
+//
+//// Fetch required values
+//console.log("Smallest number is", numbers[0]);
+//console.log("2nd Smallest number is", numbers[1]);
+//console.log("Largest number is", numbers[numbers.length - 1]);
+//console.log("2nd Largest number is", numbers[numbers.length - 2]);
+//console.log("Middle number is", numbers[Math.floor(numbers.length / 2)]);
+//}
+//
+//arraySorting();

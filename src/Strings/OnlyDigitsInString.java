@@ -16,3 +16,17 @@ public class OnlyDigitsInString {
 	}
 
 }
+
+
+//js
+
+//const onlyDigitsInString = (str) => {
+//	  if (/^\d+$/.test(str)) {
+//	    console.log("String contains only digits");
+//	  } else {
+//	    console.log("String contains extra characters");
+//	  }
+//	};
+//
+//	const a = "12345";
+//	onlyDigitsInString(a);

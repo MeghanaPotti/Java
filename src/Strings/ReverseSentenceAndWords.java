@@ -19,3 +19,24 @@ public class ReverseSentenceAndWords {
 	}
 
 }
+
+
+//js
+
+//const reverseSentenceAndWords = (sentence) => {
+//	  const words = sentence.split(' ');
+//	  let reversedSentence = '';
+//
+//	  for (let i = words.length - 1; i >= 0; i--) {
+//	    let reversedWord = '';
+//	    for (let j = words[i].length - 1; j >= 0; j--) {
+//	      reversedWord += words[i][j];
+//	    }
+//	    reversedSentence += reversedWord + ' ';
+//	  }
+//
+//	  console.log(reversedSentence.trim());
+//	};
+//
+//	const sentence = "qwer qwert qwerty";
+//	reverseSentenceAndWords(sentence);

@@ -25,3 +25,24 @@ public class CharIntArrayMerging {
 	}
 
 }
+
+
+//js
+
+//function charIntArrayMerging() {
+//const a = ['a', 'b', 'c'];
+//const b = [1, 2, 3];
+//
+//const mergedArray = new Array(a.length + b.length);
+//let index = 0;
+//
+//for (let i = 0; i < a.length; i++) {
+// mergedArray[index++] = a[i];
+// mergedArray[index++] = b[i];
+//}
+//
+//// Printing merged array
+//console.log("Merged Array:", mergedArray.join(""));
+//}
+//
+//charIntArrayMerging();

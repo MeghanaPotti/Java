@@ -35,4 +35,22 @@ public class MissingElement {
 }
 
 
-//array methods - sort, compare/equals
+//js
+
+//function missingElement(arr, n) {
+// let sum = arr.reduce((acc, val) => acc + val, 0);
+// let total = (n * (n + 1)) / 2;
+// console.log("Missing element (using sum formula):", total - sum);
+//
+// // Alternative method
+// for (let i = 0; i < arr.length - 1; i++) {
+//     if (arr[i + 1] - arr[i] > 1) {
+//         console.log("Missing element (by difference):", arr[i] + 1);
+//     }
+// }
+//}
+//
+////Example:
+//let a = [1, 2, 3, 4, 5, 6, 8];
+//let n = 8;
+//missingElement(a, n);

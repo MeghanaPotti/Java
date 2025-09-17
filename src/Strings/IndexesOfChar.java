@@ -18,3 +18,26 @@ public class IndexesOfChar {
 		System.out.println(target+"-"+count);
 	}
 }
+
+
+
+//js
+
+//const indexesOfChar = (str, target) => {
+//	  let count = 0;
+//	  let indexes = [];
+//
+//	  for (let i = 0; i < str.length; i++) {
+//	    if (str[i] === target) {
+//	      indexes.push(i);
+//	      count++;
+//	    }
+//	  }
+//
+//	  console.log(`${target} indexes are ${indexes.join(' ')}`);
+//	  console.log(`${target}-${count}`);
+//	};
+//
+//	const a = "qertuywwqwrqqqqweqa";
+//	const target = 'q';
+//	indexesOfChar(a, target);

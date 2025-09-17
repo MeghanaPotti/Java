@@ -24,3 +24,31 @@ public class SingleSubString {
 	}
 
 }
+
+
+//js
+
+//const singleSubstring = (str) => {
+//	  for (let i = 1; i <= str.length; i++) {
+//	    console.log(str.substring(0, i));
+//	  }
+//	};
+//
+//	// Alternative left-hand pyramid
+//	const leftHandPyramid = (str) => {
+//	  const chars = str.split('');
+//	  console.log("Printing left hand pyramid");
+//	  for (let i = 0; i < chars.length; i++) {
+//	    let line = '';
+//	    for (let j = 0; j <= i; j++) {
+//	      line += chars[j];
+//	    }
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const name = "Keerthi";
+//	singleSubstring(name);
+//
+//	const names = "QWERTY";
+//	leftHandPyramid(names);

@@ -11,3 +11,20 @@ public class ReversingArray {
 		}
 	}
 }
+
+
+//js
+
+
+//function reverseArray(arr) {
+// let reversed = [];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     reversed.push(arr[i]);
+// }
+// console.log("Reverse of an array:", reversed);
+// return reversed;
+//}
+//
+////Example:
+//let a = [1, 2, 3, 4, 5];
+//reverseArray(a); // Output: [5, 4, 3, 2, 1]

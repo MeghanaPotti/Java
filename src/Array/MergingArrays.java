@@ -27,3 +27,16 @@ public class MergingArrays {
 	}
 }
 
+//js
+
+//function mergeAndSortArrays(a, b) {
+// let mergedArray = [...a, ...b];
+// mergedArray.sort((x, y) => x - y);
+// return mergedArray;
+//}
+//
+////Example:
+//let a = [1, 2, 3];
+//let b = [7, 5, 6];
+//console.log("Before sorting:", [...a, ...b]);
+//console.log("After sorting:", mergeAndSortArrays(a, b));

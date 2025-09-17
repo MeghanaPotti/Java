@@ -16,3 +16,19 @@ public class StringIncrement {
 	}
 
 }
+
+
+//js
+
+//const stringIncrement = (input) => {
+//	  let output = '';
+//
+//	  for (let i = 0; i < input.length; i++) {
+//	    output += input[i] + input[i];
+//	  }
+//
+//	  console.log(output);
+//	};
+//
+//	const input = "abcd";
+//	stringIncrement(input);

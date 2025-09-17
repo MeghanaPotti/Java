@@ -54,3 +54,23 @@ public class Anagram {
 //else {
 //	System.out.println("Not an anagram");
 //}
+
+//js
+
+//function isAnagram(a, b) {
+//    if (a.length !== b.length) return false;
+//
+//    const charCount = new Map();
+//
+//    for (let ch of a) {
+//        charCount.set(ch, (charCount.get(ch) || 0) + 1);
+//    }
+//
+//    for (let ch of b) {
+//        if (!charCount.has(ch)) return false;
+//        charCount.set(ch, charCount.get(ch) - 1);
+//        if (charCount.get(ch) === 0) charCount.delete(ch);
+//    }
+//
+//    return charCount.size === 0;
+//}

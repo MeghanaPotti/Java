@@ -16,3 +16,19 @@ public class NumInvertedLeftTriangle {
 	}
 
 }
+
+
+//js
+
+//const numInvertedLeftTriangle = (n) => {
+//	  for (let i = n; i >= 0; i--) {
+//	    let line = '';
+//	    for (let j = 1; j <= i; j++) {
+//	      line += j;
+//	    }
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 6;
+//	numInvertedLeftTriangle(n);

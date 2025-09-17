@@ -17,3 +17,15 @@ public class Swapping {
 	}
 
 }
+
+
+//js
+
+//let a = 2, b = 3;
+//
+//a = a + b;
+//b = a - b;
+//a = a - b;
+//
+//console.log("a value is " + a);
+//console.log("b value is " + b);

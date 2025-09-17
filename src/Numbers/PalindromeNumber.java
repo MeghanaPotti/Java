@@ -24,3 +24,27 @@ public class PalindromeNumber {
 	}
 
 }
+
+
+//js
+
+//const palindromeNumber = (number) => {
+//	  let reversedNum = number;
+//	  let reverse = 0;
+//
+//	  while (reversedNum !== 0) {
+//	    reverse = reverse * 10 + (reversedNum % 10);
+//	    reversedNum = Math.floor(reversedNum / 10);
+//	  }
+//
+//	  console.log("Reversed Number is " + reverse);
+//
+//	  if (reverse === number) {
+//	    console.log(number + " is palindrome");
+//	  } else {
+//	    console.log(number + " is not palindrome");
+//	  }
+//	};
+//
+//	const number = 160010061;
+//	palindromeNumber(number);

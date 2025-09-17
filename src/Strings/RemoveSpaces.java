@@ -17,3 +17,20 @@ public class RemoveSpaces {
 	}
 
 }
+
+
+//js
+
+//const removeSpacesAndSpecialChars = () => {
+//	  const sentence = "qwr asf qwr";
+//	  const s1 = sentence.replace(/\s/g, '');
+//	  console.log("Removing spaces");
+//	  console.log(s1);
+//
+//	  const name = "@@dfgh@";
+//	  const n1 = name.replace(/@/g, '');
+//	  console.log("Removing special characters");
+//	  console.log(n1);
+//	};
+//
+//	removeSpacesAndSpecialChars();

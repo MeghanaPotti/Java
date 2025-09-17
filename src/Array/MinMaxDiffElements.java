@@ -23,3 +23,25 @@ public class MinMaxDiffElements {
 	}
 
 }
+
+
+//js
+
+
+//function minMaxDiff(arr) {
+// let min = arr[0];
+// let max = arr[0];
+//
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < min) min = arr[i];
+//     else if (arr[i] > max) max = arr[i];
+// }
+//
+// console.log("Least element is", min);
+// console.log("Highest element is", max);
+// console.log("Difference between min and max elements is", max - min);
+//}
+//
+////Example:
+//let a = [12, 3, 56, 32, 44, 36, 5];
+//minMaxDiff(a);

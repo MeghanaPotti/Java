@@ -26,3 +26,18 @@ public class HashMapChar {
 	}
 
 }
+
+
+//js
+
+//function hashMapChar(str) {
+// const charCount = new Map();
+//
+// for (let ch of str) {
+//     charCount.set(ch, (charCount.get(ch) || 0) + 1);
+// }
+//
+// for (let [ch, count] of charCount.entries()) {
+//     process.stdout.write(ch + "" + count + " ");
+// }
+//}

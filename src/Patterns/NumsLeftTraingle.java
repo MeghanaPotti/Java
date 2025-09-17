@@ -15,3 +15,19 @@ public class NumsLeftTraingle {
 	
 	}
 }
+
+
+//js
+
+//const numsLeftTriangle = (n) => {
+//	  for (let i = 1; i <= n; i++) {
+//	    let line = '';
+//	    for (let j = 1; j <= i; j++) {
+//	      line += j;
+//	    }
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 6;
+//	numsLeftTriangle(n);

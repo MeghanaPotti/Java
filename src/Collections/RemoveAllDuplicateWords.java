@@ -29,3 +29,26 @@ public class RemoveAllDuplicateWords {
 	}
 
 }
+
+
+//js
+
+//function removeAllDuplicateWords(sentence) {
+// const words = sentence.split(" ");
+// const wordCount = new Map();
+//
+// for (let word of words) {
+//     wordCount.set(word, (wordCount.get(word) || 0) + 1);
+// }
+//
+// for (let [word, count] of wordCount.entries()) {
+//     if (count > 1) {
+//         const regex = new RegExp(`\\b${word}\\b`, "g");
+//         sentence = sentence.replace(regex, '');
+//     }
+// }
+//
+// sentence = sentence.replace(/\s+/g, ' ').trim();
+// console.log(sentence);
+// return sentence;
+//}

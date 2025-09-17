@@ -29,3 +29,16 @@ public class DuplicateChar {
 	}
 
 }
+
+
+//js
+
+//function duplicateChars(str) {
+//    const charSet = new Set();
+//
+//    for (let ch of str) {
+//        if (!charSet.add(ch)) {
+//            process.stdout.write(ch + " ");
+//        }
+//    }
+//}

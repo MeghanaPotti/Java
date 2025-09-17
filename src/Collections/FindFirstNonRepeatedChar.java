@@ -31,3 +31,20 @@ public class FindFirstNonRepeatedChar {
 	}
 
 }
+
+//js
+
+//function firstNonRepeatedChar(str) {
+// const charCount = new Map();
+//
+// for (let ch of str) {
+//     charCount.set(ch, (charCount.get(ch) || 0) + 1);
+// }
+//
+// for (let ch of str) {
+//     if (charCount.get(ch) === 1) {
+//         console.log("First non-repeated character is", ch);
+//         break;
+//     }
+// }
+//}

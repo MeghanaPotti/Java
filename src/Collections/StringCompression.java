@@ -25,3 +25,24 @@ public class StringCompression {
 	}
 
 }
+
+
+//js
+
+//const stringCompression = (input) => {
+//	  const charCount = new Map();
+//
+//	  for (const ch of input) {
+//	    charCount.set(ch, (charCount.get(ch) || 0) + 1);
+//	  }
+//
+//	  let compressed = '';
+//	  for (const [char, count] of charCount) {
+//	    compressed += `${char}${count}`;
+//	  }
+//
+//	  return compressed;
+//	};
+//
+//	const input = "aabbbcccc";
+//	console.log(stringCompression(input));

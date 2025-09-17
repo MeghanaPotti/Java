@@ -23,3 +23,20 @@ public class ZerosToRight {
 		}
 	}
 }
+
+
+//js
+
+//function zerosToRight(arr) {
+// let nonZeroIndex = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== 0) {
+//         [arr[i], arr[nonZeroIndex]] = [arr[nonZeroIndex], arr[i]];
+//         nonZeroIndex++;
+//     }
+// }
+//
+// console.log("Printing zeros to right:", arr);
+// return arr;
+//}

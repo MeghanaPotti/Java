@@ -21,3 +21,23 @@ public class ReverseEachWord {
 }
 
 
+//js
+
+//const reverseEacconst reverseEachWord = (sentence) => {
+//	  const words = sentence.split(' ');
+//	  let reversedSentence = '';
+//
+//	  for (const word of words) {
+//	    let reversedWord = '';
+//	    for (let i = word.length - 1; i >= 0; i--) {
+//	      reversedWord += word[i];
+//	    }
+//	    reversedSentence += reversedWord + ' ';
+//	  }
+//
+//	  console.log(reversedSentence.trim());
+//	};
+//
+//	const sentence = "qwer qwert qwerty";
+//	reverseEachWord(sentence);
+

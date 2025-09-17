@@ -16,3 +16,19 @@ public class StarSquarePattern {
 	}
 
 }
+
+
+//js
+
+//const starSquarePattern = (n) => {
+//	  for (let i = 1; i <= n; i++) {
+//	    let line = '';
+//	    for (let j = 1; j <= n; j++) {
+//	      line += '* ';
+//	    }
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 5;
+//	starSquarePattern(n);

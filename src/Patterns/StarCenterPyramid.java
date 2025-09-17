@@ -19,3 +19,25 @@ public class StarCenterPyramid {
 	}
 
 }
+
+
+//js
+
+//const starCenterPyramid = (n) => {
+//	  for (let i = 1; i <= n; i++) {
+//	    let line = '';
+//
+//	    for (let j = 1; j <= n - i; j++) {
+//	      line += ' ';
+//	    }
+//
+//	    for (let k = i; k <= 2 * i - 1; k++) {
+//	      line += '* ';
+//	    }
+//
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 6;
+//	starCenterPyramid(n);

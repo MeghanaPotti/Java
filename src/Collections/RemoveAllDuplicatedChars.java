@@ -30,3 +30,23 @@ public class RemoveAllDuplicatedChars {
 	}
 
 }
+
+
+//js
+
+//function removeAllDuplicatedChars(str) {
+// const charCount = new Map();
+//
+// for (let ch of str) {
+//     charCount.set(ch, (charCount.get(ch) || 0) + 1);
+// }
+//
+// for (let [ch, count] of charCount.entries()) {
+//     if (count > 1) {
+//         str = str.split(ch).join('');
+//     }
+// }
+//
+// console.log("String after removing duplicates:", str);
+// return str;
+//}

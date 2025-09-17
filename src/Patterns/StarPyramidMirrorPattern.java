@@ -17,4 +17,21 @@ public class StarPyramidMirrorPattern {
 }
 
 
+//js
+
+//const starPyramidMirrorPattern = (n) => {
+//	  for (let i = 1; i < 2 * n; i++) {
+//	    const columns = i > n ? 2 * n - i : i;
+//	    let line = '';
+//
+//	    for (let j = 0; j < columns; j++) {
+//	      line += '* ';
+//	    }
+//
+//	    console.log(line);
+//	  }
+//	};
+//
+//	const n = 5;
+//	starPyramidMirrorPattern(n);
 

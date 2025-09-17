@@ -12,3 +12,14 @@ public class RemoveSpChars {
 	}
 
 }
+
+
+//js
+
+//const removeSpecialChars = (str) => {
+//	  const replaced = str.replace(/[^a-zA-Z0-9]/g, '');
+//	  console.log(replaced);
+//	};
+//
+//	const name = "!@#$$%avucu@";
+//	removeSpecialChars(name);

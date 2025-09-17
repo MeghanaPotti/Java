@@ -13,3 +13,17 @@ public class RemovingFirstLastElements {
 	}
 
 }
+
+
+//js
+
+
+//function removeFirstLast(arr) {
+// let result = arr.slice(1, arr.length - 1);
+// console.log("Array after removing first and last elements:", result);
+// return result;
+//}
+//
+////Example:
+//let a = [1, 2, 3, 4, 5];
+//removeFirstLast(a); // Output: [2, 3, 4]

@@ -26,3 +26,32 @@ public class DuplicateElements {
 	}
 
 }
+
+//js
+
+//function duplicateElements() {
+//const a = [1, 2, 1, 3, 4, 3, 2];
+//const rep = new Array(a.length).fill(false);
+//
+//process.stdout.write("Duplicate elements are: ");
+//
+//for (let i = 0; i < a.length - 1; i++) {
+// if (rep[i]) {
+//   continue;
+// }
+// let count = 1;
+// for (let j = i + 1; j < a.length; j++) {
+//   if (a[i] === a[j]) {
+//     count++;
+//     rep[j] = true;
+//   }
+// }
+// if (count > 1) {
+//   process.stdout.write(a[i] + " ");
+// }
+//}
+//console.log();
+//}
+//
+//duplicateElements();
+

@@ -20,3 +20,22 @@ public class SecLargestElement {
 	}
 
 }
+
+
+//js
+
+//function secondLargestElement(arr) {
+// let largest = -Infinity, secondLargest = -Infinity;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//         secondLargest = largest;
+//         largest = arr[i];
+//     } else if (arr[i] < largest && arr[i] > secondLargest) {
+//         secondLargest = arr[i];
+//     }
+// }
+//
+// return secondLargest;
+//}
+

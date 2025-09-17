@@ -34,4 +34,22 @@ public class FirstCommonElement {
 
 }
 
+//js
+
+
+//function firstCommonElement(a, b) {
+// for (let i = 0; i < a.length; i++) {
+//     for (let j = 0; j < b.length; j++) {
+//         if (a[i] === b[j]) {
+//             return a[i];
+//         }
+//     }
+// }
+// return null; // if no common element
+//}
+//
+////Example:
+//let a = [1, 2, 3, 4, 5];
+//let b = [1, 12, 2, 24];
+//console.log(firstCommonElement(a, b)); // Output: 1
 
